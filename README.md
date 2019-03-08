@@ -1,1 +1,90 @@
-# project
+#修改数据接口
+<hr>
+###接口地址：公网：[http://mushroomzhang.com:8080/vuetian.html](http://mushroomzhang.com:8080/vuetian.html)
+###返回格式：json
+###请求方式：get http
+###请求示例:[http://mushroomzhang.com:8080/vuetian.html](http://mushroomzhang.com:8080/vuetian.html)
+##请求参数说明:
+<table>
+   <thead>
+         <tr>
+            <th>名称</th>
+            <th>类型</th>
+            <th>说明</th>
+        </tr>
+   </thead>
+   <tbody>
+        <tr>
+            <td>ID</td>
+            <td>int</td>
+            <td>员工序号</td>
+        </tr>
+         <tr>
+            <td>name</td>
+            <td>string</td>
+            <td>员工姓名</td>
+        </tr>
+         <tr>
+            <td>sex</td>
+            <td>int</td>
+            <td>员工性别</td>
+        </tr>
+         <tr>
+            <td>birthday</td>
+            <td>date</td>
+            <td>员工生日</td>
+        </tr>
+         <tr>
+            <td>status</td>
+            <td>int</td>
+            <td>员工在职状态</td>
+        </tr>
+         <tr>
+            <td>joinData</td>
+            <td>date</td>
+            <td>员工入职时间</td>
+        </tr>
+          <tr>
+            <td>leaveData</td>
+            <td>date</td>
+            <td>员工离职时间</td>
+        </tr>
+          <tr>
+            <td>salary</td>
+            <td>int</td>
+            <td>员工薪资</td>
+        </tr>
+         <tr>
+            <td>IDCard</td>
+            <td>int</td>
+            <td>员工身份证号码</td>
+        </tr>
+         <tr>
+            <td>number</td>
+            <td>int</td>
+            <td>员工手机号</td>
+        </tr>
+   </tbody>
+</table>
+##返回参数说明：
+<table>
+    <thead>
+        <tr>
+            <th>名称</th>
+            <th>类型</th>
+            <th>说明</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>succcess</td>
+            <td>string</td>
+            <td>返回数据成功</td>
+        </tr>
+         <tr>
+            <td>error</td>
+            <td>string</td>
+            <td>返回数据失败</td>
+        </tr>
+    </tbody>
+</table>
